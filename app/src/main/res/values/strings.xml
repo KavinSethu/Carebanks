@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Carebanks</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="search_doctors">Search Doctors</string>
+    <string name="get_the_list_doctor">get list of best doctor near by you</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="welcome_to_carebanks">Welcome to Carebanks</string>
+    <string name="launcher_subtitle">We just need a few more details to create your Care banks account</string>
+    <string name="start">START</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+</resources>

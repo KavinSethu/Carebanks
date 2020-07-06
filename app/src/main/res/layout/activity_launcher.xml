@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activites.LauncherActivity"
+        android:background="@color/colorPrimary">
+
+
+        <TextView
+            android:id="@+id/tv_laucher_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_70"
+            android:gravity="center"
+            android:text="@string/welcome_to_carebanks"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_20"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_15"
+            android:gravity="center"
+            android:text="@string/launcher_subtitle"
+            android:layout_marginLeft="@dimen/size_10"
+            android:layout_marginRight="@dimen/size_10"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_20"
+            app:layout_constraintTop_toBottomOf="@+id/tv_laucher_title"
+            android:id="@+id/tv_laucher_subtitle"/>
+
+        <ImageView
+            android:id="@+id/im_onboard_logo"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="@dimen/size_50"
+            app:layout_constraintTop_toBottomOf="@+id/tv_laucher_subtitle"/>
+
+        <TextView
+            android:id="@+id/btn_login"
+            android:layout_width="150dp"
+            android:layout_height="@dimen/size_40"
+            android:layout_marginRight="@dimen/size_20"
+            android:layout_marginTop="@dimen/size_50"
+            android:background="@drawable/white_curve_border"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/size_15"
+            app:layout_constraintTop_toBottomOf="@+id/im_onboard_logo"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:id="@+id/btn_signup"
+            android:layout_width="150dp"
+            android:layout_height="@dimen/size_40"
+            android:layout_marginRight="@dimen/size_20"
+            android:layout_marginTop="@dimen/size_20"
+            android:background="@drawable/white_curve_border"
+            android:gravity="center"
+            android:text="@string/signup"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/size_15"
+            app:layout_constraintTop_toBottomOf="@+id/btn_login"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

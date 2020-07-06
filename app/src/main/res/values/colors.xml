@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7F3CBA</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="bluecolor">#08A0AD</color>
+    <color name="darkblue">#3D576A</color>
+    <color name="lightblue">#D4E9EE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="egrey">#eee</color>
+    <color name="grey_silver">#EFEFF4</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_inactive_screen">#FFFFFF</color>
+    <!-- dots active colors -->
+    <color name="dot_active_screen">#D87BA4</color>
+
+
+    <array name="array_dot_active">
+        <item>@color/dot_active_screen</item>
+        <item>@color/dot_active_screen</item>
+        <item>@color/dot_active_screen</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>@color/dot_inactive_screen</item>
+        <item>@color/dot_inactive_screen</item>
+        <item>@color/dot_inactive_screen</item>
+    </array>
+</resources>
